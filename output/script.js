@@ -1,21 +1,6 @@
-// let fruits = ['Banana','Orange','Apple'];
-// fruits.push(23);
-// let a: string ;
-// let b: number;
-// a="Atikur";
-// console.log(a);
-let c;
-c = {
-    name: 'Atikur',
-    age: '34',
-    isHuman: true,
+const myFunc = (a, b, c = 'true') => {
+    return a + b;
 };
-console.log(c);
-let d = {
-    name: "atikur",
-    age: 34,
-    isHuman: false,
-};
-console.log(d);
+console.log(myFunc('atikur', 'rahaman', 'false'));
 export {};
 //# sourceMappingURL=script.js.map
