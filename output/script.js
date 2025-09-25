@@ -1,6 +1,8 @@
-const myFunc = (a, b, c = 'true') => {
+let add;
+// Signature
+add = (a, b) => {
     return a + b;
 };
-console.log(myFunc('atikur', 'rahaman', 'false'));
+console.log(add(4, 4));
 export {};
 //# sourceMappingURL=script.js.map

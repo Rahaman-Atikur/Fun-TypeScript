@@ -1,5 +1,7 @@
-const myFunc = (a: string, b: string, c: string = 'true') => {
+let add: (x: number, y: number) => number;
+// Signature
+
+add = (a: number, b: number){
     return a + b;
 }
-
-console.log(myFunc('atikur','rahaman','false'));
+console.log(add(4,4));
