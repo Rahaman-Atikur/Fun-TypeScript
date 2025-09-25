@@ -1,7 +1,16 @@
-let add: (x: number, y: number) => number;
-// Signature
+let userDetails: (id: number | string, userInfo: {
+    name: string,
+    age: number;
+}) => void
 
-add = (a: number, b: number){
-    return a + b;
+
+//  signature
+
+userDetails = (id: number | string, userInfo: {
+    name: string,
+    age: number,
+}) => {
+
 }
-console.log(add(4,4));
+
+
