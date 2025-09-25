@@ -1,5 +1,5 @@
-console.log("hello world");
-console.log("That is Fine");
+const country = "I love bangladesh";
+console.log(country);
 
-console.log("Yes Run");
-console.log("Don't Run");
+const name = "atikur";
+console.log(name);

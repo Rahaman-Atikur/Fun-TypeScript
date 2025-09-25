@@ -1,6 +1,6 @@
-console.log("hello world");
-console.log("That is Fine");
-console.log("Yes Run");
-console.log("Don't Run");
+const country = "I love bangladesh";
+console.log(country);
+const name = "atikur";
+console.log(name);
 export {};
 //# sourceMappingURL=script.js.map
